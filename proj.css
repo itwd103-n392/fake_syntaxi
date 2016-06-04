@@ -1,0 +1,149 @@
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+ul {
+list-style-type: circle;
+}
+
+ol.roman {
+list-style-type: upper-roman;
+}
+
+p.foot {
+	 text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
+
+.con a:link, a:visited {
+    	 background-color: #24252A;
+    	 color: white;
+    	 padding: 14px 25px;
+    	 text-align: center; 
+    	 text-decoration: none;
+    	 display: inline-block;
+	 border-radius: 2px;
+	 -webkit-transition: background 0.2s;
+	 transition: background 0.2s;
+}
+
+.con a:hover, a:active {
+	 background-color: #797BED;
+}
+
+.icons a:link, a:visited {
+    	 background-color: none;
+    	 padding: 10px 10px;
+    	 text-align: center; 
+    	 text-decoration: none;
+    	 display: inline-block;
+	 border-radius: 99px;
+	 -webkit-transition: background 0.2s;
+	 transition: background 0.2s;
+}
+
+.icons a:hover, a:active {
+	 background-color: #b50055;
+}
+
+footer { 
+	 color: pink;
+}
+
+body { 
+   	 background-image: url('bg.jpg');
+	 background-color: #121424;
+	 background-position: center;
+   	 background-repeat: no-repeat;
+   	 background-attachment: fixed;
+}
+
+.grid {
+	margin: 0 auto;
+	padding: 3em 1em;
+	max-width: 1200px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.grid2 {
+	margin: 0 auto;
+	padding: 3em 1em;
+	max-width: 1200px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.contact {
+	position: relative;
+	display: block;
+	width: 50em;
+	min-width: 16em;
+	margin: 0 11em 2.5em;
+	padding: 1.5em 1.5em 1.5em;
+	background: #24252A;
+	border-radius: 5px;
+}
+
+.product {
+	position: relative;
+	display: inline-block;
+	min-width: 16em;
+	margin: 0 1em 2.5em;
+	padding: 1.5em 1.5em 1.5em;
+	background: #24252A;
+	border-radius: 5px;
+}
+
+.p_title {
+	color: #ff77b7;
+	letter-spacing: 0.5px;
+}
+
+.p_price {
+	font-weight: bold;
+	color: #c166e0;
+}
+
+.action {
+	display: inline-block;
+	font-size: 1em;
+	white-space: nowrap;
+	padding: 0.85em 1.25em;
+	cursor: pointer;
+	border: none;
+	background: transparent;
+	text-align: center;
+}
+
+.a_button {
+	background: #2C2D34;
+	color: white;
+	border-radius: 2px;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.a_button:hover {
+	background: #797BED;
+}
+
+.a_text {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: .813em;
+	vertical-align: middle;
+	display: inline-block;
+}
