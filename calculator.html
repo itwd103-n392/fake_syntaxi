@@ -1,14 +1,7 @@
-<!DOCTYPE html>
 <html>
-<head>
-<!-- Bootstrap Core CSS -->
-    <link href="../../css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../../css/toggle-sidebar.css" rel="stylesheet">
-	</head>
   <body>
       <script>
+			//addition
           function toNum(n){
               return parseInt(n);
           }
@@ -16,61 +9,65 @@
               sum=toNum(n1) + toNum(n2);
             output(sum);
           }
-		  
-		  function subt(n1, n2){
-              difference=toNum(n1) - toNum(n2);
-            output(difference);
-          }
-		  
-		  function times(n1, n2){
-              product=toNum(n1) * toNum(n2);
-            output(product);
-          }
-		  
-		  function divide(n1, n2){
-              quotient=toNum(n1) / toNum(n2);
-            output(quotient);
-          }
-		  
-		  
           function output(res){
               alert(res);
           }
+		  
+		  //subtraction
+          function toNum(n){
+              return parseInt(n);
+          }
+          function subtract(n1, n2){
+              difference=toNum(n1) - toNum(n2);
+            output(difference);
+          }
+          function output(res){
+              alert(res);
+          }
+		  
+		  //multiplication
+          function toNum(n){
+              return parseInt(n);
+          }
+          function multiply(n1, n2){
+              product=toNum(n1) * toNum(n2);
+            output(product);
+          }
+          function output(res){
+              alert(res);
+          }
+		  
+		  //division
+          function toNum(n){
+              return parseInt(n);
+          }
+          function divide(n1, n2){
+              quotient=toNum(n1) / toNum(n2);
+            output(quotient);
+          }
+          function output(res){
+              alert(res);
+          }
+		  
       </script>
       <form name="calc">
           Num1: <input type="text" id="num1"><br>
           Num2: <input type="text" id="num2"><br>
     </form>
-   
-    
- <div class="container">
+	
+	<div class="container">
     <div class="row">
         <div class="col-md-6">
-
-             <button  class="btn" onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
-			 <button  class="btn"onclick="subt(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
+            <button onclick="add(document.querySelector('#num1').value, document.querySelector('#num2').value)">Add</button>
+			 <button onclick="subtract(document.querySelector('#num1').value, document.querySelector('#num2').value)">Subtract</button>
         </div>
-        
-    </div>
-</div>
-
-<div class="container">
-    <div class="col">
-        <div class="col+md+6">
-           <button class="btn" onclick="times(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
-		   <button  class="btn" onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
-        </div>
-        <div class="col+md+6">
-            
+        <div class="col-md-6">
+             <button onclick="multiply(document.querySelector('#num1').value, document.querySelector('#num2').value)">Multiply</button>
+			  <button onclick="divide(document.querySelector('#num1').value, document.querySelector('#num2').value)">Divide</button>
         </div>
     </div>
 </div>
-    
- 
- 
-<!-- jQuery -->
-<script src="../../js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="../../js/bootstrap.min.js"></script>
- </body>
+	
+
+  </body>
 </html>
